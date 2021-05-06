@@ -17,12 +17,10 @@ timezone: Asia/Tokyo
 # --------------------------
 title: 0x1F5.github.io                 # the main title
 
-tagline: 成果物とか   # it will display as the sub-title
+tagline: Blog & Tools   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  主にブログ、時には制作したツールを公開していきたいと思います
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
@@ -37,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: solc.
-  email: example@doamin.com             # change to your email address
+  email: ""             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/un_here_na      # change to your twitter homepage
@@ -67,7 +65,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:  dark
+theme_mode:  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
