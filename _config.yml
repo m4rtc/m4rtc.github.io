@@ -8,47 +8,47 @@ theme: jekyll-theme-chirpy
 baseurl: ''
 
 # the HTML language tag › https://www.w3.org/International/questions/qa-choosing-language-tags
-lang: ja-JP
+lang: es
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Tokyo
+timezone: 
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: 0x1F5.github.io                 # the main title
+title: m4rtc                 # the main title
 
-tagline: Blog & Tools   # it will display as the sub-title
+tagline: Ciberseguridad & CTF    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  主にブログ、時には制作したツールを公開していきたいと思います
+  Blog personal sobre Ciberseguridad y tips de estudio
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://m4rtc.github.io/'
 
 github:
-  username: "0x1F5"             # change to your github username
+  username: m4rtc             # change to your github username
 
 twitter:
-  username: un_here_na           # change to your twitter username
+  username: Martc66283086           # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: solc.
-  email: ""             # change to your email address
+  name: Martc66283086 
+  email:             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/un_here_na      # change to your twitter homepage
-    - https://github.com/0x1F5      # change to your github homepage
+    - https://twitter.com/Martc66283086      # change to your twitter homepage
+    - https://github.com/m4rtc      # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification:            # change to your verification string
 # --------------------------
 
 google_analytics:
-  id: 'G-5X5Y52CTHZ'              # fill in your Google Analytics ID
+  id:                # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -65,17 +65,17 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:  # [light|dark]
+theme_mode: dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: ''
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://i.imgur.com/U15yAA1.jpg
+avatar: assets/avatar.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true

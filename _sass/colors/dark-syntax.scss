@@ -1,23 +1,26 @@
 /*
- * The syntax dark mode styles.
+ * The syntax dark mode styles. #de6b18
  */
 
 @mixin dark-syntax {
-  /* -----  My styles ------ */
   --highlight-bg-color: #252525;
-  --highlighter-rouge-color: #de6b18;
+  --highlighter-rouge-color: #C92A26;
   --highlight-lineno-color: #6c6c6d;
-  --highlight-lineno-border-color: #303435;
-  --inline-code-bg: #272822;
+  --inline-code-bg: #1A1A1A;
+  --code-header-text-color: #6a6a6a;
+  --code-header-muted-color: rgb(60, 60, 60);
+  --code-header-icon-color: rgb(86, 86, 86);
+  --clipboard-checked-color: #2bcc2b;
+  --filepath-text-color: #bdbdbd;
+
+  pre { color: #bfbfbf; } /* override Bootstrap */
 
   .highlight {
     .gp { color: #818c96; }
   }
 
-  pre { color: #bfbfbf; } /* override Bootstrap */
-  kbd { background-color: black; }
-
   /* syntax highlight colors from https://raw.githubusercontent.com/jwarby/pygments-css/master/monokai.css */
+
   .highlight pre { background-color: var(--highlight-bg-color); }
   .highlight .hll { background-color: var(--highlight-bg-color); }
   .highlight .c { color: #75715e; } /* Comment */

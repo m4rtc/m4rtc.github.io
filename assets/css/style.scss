@@ -1,7 +1,61 @@
 ---
 ---
 
-// see: /_sass/addon/commons.scss
+/*
+  If the number of TAB files has changed, the following variable is required.
+  And it must be defined before `@import`.
+*/
 $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 
-@import "jekyll-theme-chirpy";
+@import "{{ site.theme }}";
+
+/* append your custom style below */
+
+#sidebar #avatar a {
+	border: 1.7px solid #45454f;	
+}
+
+#sidebar #avatar > a:hover{
+	border: 2.7px solid #45454f;
+	transition: all 100ms;
+}
+
+
+#main-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../back.jpg');
+  opacity: 0.03;
+}
+
+#panel-wrapper .post-tag:hover{
+	background-color: rgb(81, 34, 114)!important;
+	border-color: rgb(81, 34, 114)!important;
+}
+
+
+
+#post-title{
+	color: #c12824;
+}
+
+.post-content h2{
+	color: #c12824;
+}
+
+.post-content h3{	
+	color: #C92A26;
+}
+
+.post-content h4{	
+	color: #b19945;
+}
+
+.post-content h5{	
+	color: #3087a9;
+}
+
